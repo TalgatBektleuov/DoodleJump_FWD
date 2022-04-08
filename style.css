@@ -1,0 +1,38 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url('./images/background.png');
+    position: relative;
+    font-size: 44px;
+    left: 550px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.score{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+.doodler{
+    width: 87px;
+    height: 85px;
+    background-image: url('./images/doodler-guy.png');
+    position: absolute;
+}
+.playAgain{
+    width: 5px;
+    height: 3px;
+    left:50%;
+    top:50%;
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    background-image: url('./images/platform.png');
+    position: absolute;
+}
